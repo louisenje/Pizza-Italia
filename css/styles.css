@@ -60,18 +60,14 @@ p{
     margin: 10px 0;
     position: relative;
     overflow: hidden;
-    background-color:#adebad;
+    background-color:#d6f5d6;
 }
 .img-fluid{
     max-width: 100%;
   height: auto;
     
 }
-.card {
-    margin: 10px 0;
-    position: relative;
-    overflow: hidden;
-}
+
 .card:hover img {
     transform: scale(1.2);
     transition: all 0.3s ease;
