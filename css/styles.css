@@ -117,16 +117,26 @@ p{
       background-image: url("../images/gif/customise.jpg" );
      }
 .cs{
-         font-size: 30px;
+         font-size: 25px;
          font-weight: 900;
          color: red;
-         padding-top: 3%;
+         padding-top: 0%;
      }
 .fm{
     font-size: 20px;
     font-weight: 700;
     }
 .jumbotron{
-    background-color:whitesmoke
+    background-color:white
 }
-
+.c{
+   font-size: 33px;
+   font-weight: 900;
+   color: red;
+   text-align: center;
+   padding-bottom: 4%;
+   padding-top: 3%;
+}
+.lo{
+    float: left;
+}
