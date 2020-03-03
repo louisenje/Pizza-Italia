@@ -7,8 +7,9 @@
         var removeCartItemButtons = document.getElementsByClassName('btn-success')
         for (var i = 0; i < removeCartItemButtons.length; i++) {
             var button = removeCartItemButtons[i]
-            button.addEventListener('click', removeCartItem)
-    })
-    }
-    
+            button.addEventListener('click', function(event){
+            var buttonClicked = event.target
+            buttonClicked.parentElement.parentElement.remove()
 
+            })
+        } 

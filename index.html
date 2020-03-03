@@ -50,7 +50,7 @@
                  <img src="./images/gif/14.jpg" class="img-fluid" alt=""> 
                  <div class="">
                  </div>
-                 <p class="font-weight-bold text-uppercase mp">Meat Pizza</p>
+                 <p class="font-weight-bold text-uppercase mp cart-item-title">Meat Pizza</p>
                  <li>
                      <ol> Beef</ol>
                      <ol> Mushrooms (Fresh),</ol>
@@ -277,65 +277,52 @@
    </div>
    </div>
     </div>
-    <!--cart-->
-    <section class="container content-section">
-        <h2 class="section-header">CART</h2>
-        <div class="cart-row">
-            <span class="cart-item cart-header cart-column">ITEM</span>
-            <span class="cart-price cart-header cart-column">PRICE</span>
-            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
-        </div>
-        <div class="cart-items">
+
+<!--------cart------>
+   <div class="comtainer-fluid">
+       <div class="jumbotron">
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
             <div class="cart-row">
-                <div class="cart-item cart-column">
-                    <img class="cart-item-image" src="Images/Shirt.png" width="100" height="100">
-                    <span class="cart-item-title">T-Shirt</span>
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="Images/Shirt.png" width="100" height="100">
+                        <span class="cart-item-title">T-Shirt</span>
+                    </div>
+                    <span class="cart-price cart-column">$19.99</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="1">
+                        <button class=" btn-danger btn-sm" type="button">REMOVE</button>
+                    </div>
                 </div>
-                <span class="cart-price cart-column">$19.99</span>
-                <div class="cart-quantity cart-column">
-                    <input class="cart-quantity-input" type="number" value="1">
-                    <button class="btn btn-danger" type="button">REMOVE</button>
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="Images/Album 3.png" width="100" height="100">
+                        <span class="cart-item-title">Album 3</span>
+                    </div>
+                    <span class="cart-price cart-column">$9.99</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" type="number" value="2">
+                        <button class=" btn-danger btn-sm" type="button">REMOVE</button>
+                    </div>
                 </div>
             </div>
-            <div class="cart-row">
-                <div class="cart-item cart-column">
-                    <img class="cart-item-image" src="Images/Album 3.png" width="100" height="100">
-                    <span class="cart-item-title">Album 3</span>
-                </div>
-                <span class="cart-price cart-column">$9.99</span>
-                <div class="cart-quantity cart-column">
-                    <input class="cart-quantity-input" type="number" value="2">
-                    <button class="btn btn-danger" type="button">REMOVE</button>
-                </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$39.97</span>
             </div>
-        </div>
-        <div class="cart-total">
-            <strong class="cart-total-title">Total</strong>
-            <span class="cart-total-price">$39.97</span>
-        </div>
-        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
-    </section>
-    <footer class="main-footer">
-        <div class="container main-footer-container">
-            <h3 class="band-name">The Generics</h3>
-            <ul class="nav footer-nav">
-                <li>
-                    <a href="https://www.youtube.com" target="_blank">
-                        <img src="Images/YouTube Logo.png">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.spotify.com" target="_blank">
-                        <img src="Images/Spotify Logo.png">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com" target="_blank">
-                        <img src="Images/Facebook Logo.png">
-                    </a>
-                </li>
-            </ul>
-        </div>
+    
+    
+            <!--<button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>-->
+        </section>
+        
+       </div>
+ </div>
    <!-- links section -->
     <section class="links text-center">
         <div class="  text-center   social">
