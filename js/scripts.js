@@ -25,10 +25,13 @@
     function updateCartTotal(){
         var cartItemContainer = document.getElementsByClassName('cart-items')[0]
         var cartRows=cartItemContainer.getElementsByClassName('cart-row')
+        var total= 0
         for (var i = 0; i < removeCartItemButtons.length; i++) {
             var cartRows = cartRows[i]
             var priceElement=cartRows.getElementsByClassName('cart-price')[0]
             var quantityElement= cartRows.getElementsByClassName('cart-quantity-input')[0]
-            
+            var price = parseFloat(priceElement.innerText.replace('Ksh',''))
+            var quantity = quantityElement.value
+            total= total +(price * quantity)
       }
     }
